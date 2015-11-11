@@ -1,5 +1,10 @@
 FROM jenkins
 
+USER root
+RUN apt-get update && apt-get install -y maven && rm -rf /var/lib/apt/lists/*
+USER jenkins
+
+
 COPY plugins.txt /var/jenkins_home/plugins.txt
 RUN /usr/local/bin/plugins.sh /var/jenkins_home/plugins.txt
 
