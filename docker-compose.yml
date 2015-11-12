@@ -63,8 +63,8 @@ gitlab:
     - "10080:80"
     - "10022:22"
   environment:
-    - TZ=Europe/Berlin
-    - GITLAB_TIMEZONE=Berlin
+    - TZ=Europe/London
+    - GITLAB_TIMEZONE=London
 
     - GITLAB_SECRETS_DB_KEY_BASE=long-and-random-alphanumeric-string
 
