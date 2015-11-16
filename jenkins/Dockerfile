@@ -17,6 +17,7 @@ COPY jobs/6-conference-app-ci.xml /usr/share/jenkins/ref/jobs/conference-app-1-c
 COPY jobs/6-conference-app-sonar-analysis.xml /usr/share/jenkins/ref/jobs/conference-app-2-sonar-analysis/config.xml
 COPY jobs/7-conference-app-monitoring-ci.xml /usr/share/jenkins/ref/jobs/conference-app-monitoring-1-ci/config.xml
 COPY jobs/7-conference-app-monitoring-sonar-analysis.xml /usr/share/jenkins/ref/jobs/conference-app-monitoring-2-sonar-analysis/config.xml
+COPY jobs/Hello-app-seed-job.xml /usr/share/jenkins/ref/jobs/Hello-app-seed-job/config.xml
 
 ############################################
 # Configure Jenkins
